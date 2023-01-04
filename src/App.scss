@@ -1,0 +1,20 @@
+@use './styles/partials/_mixins' as *;
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+  @include setPadding(0, 0, 0, 0);
+  @include setMargin(0, 0, 0, 0);
+}
+
+html,
+body {
+  height: 100%;
+  width: 100%;
+}
+
+.app {
+  height: 100%;
+  width: 100%;
+}

@@ -1,0 +1,25 @@
+@use '../../styles/partials/_mixins';
+
+.homepage {
+    background-image: url('../../assets/googlebackground.png');
+    background-size: cover;
+    height: 45rem;
+    width: 100%;
+
+    &__test {
+        border: 1px solid black;
+    }
+
+    &__button {
+        border: none;
+        background-color: #FFF;
+        position: absolute;
+        left: 42.5rem;
+        top: 24.05rem;
+
+        &:hover {
+            cursor: pointer;
+        }
+    }
+
+}
